@@ -5,6 +5,7 @@ import Layout from "./components/layout/Layout.jsx";
 import About from "./pages/about/About.jsx";
 import Shop from "./pages/shop/Shop.jsx";
 import Contact from "./pages/contact/Contact.jsx";
+import Adult from "./pages/adult/Adult.jsx";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
                   <Route path={"/about"} element={<About/>}/>
                   <Route path={"/shop"} element={<Shop/>}/>
                   <Route path={"/contact"} element={<Contact/>}/>
+                  <Route path={"/adult"} element={<Adult/>}/>
               </Route>
 
 

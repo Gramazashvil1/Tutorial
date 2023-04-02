@@ -2,24 +2,15 @@ import "./header.scss"
 import Navigation from "../navigation/Navigation.jsx";
 
 
+
 function Header() {
     return (
 
-
         <header>
 
-            <p>CRIT</p>
+            <Navigation/>
 
-
-
-    <Navigation/>
-
-</header>
-
-
-
-
-
+        </header>
 
     );
 }

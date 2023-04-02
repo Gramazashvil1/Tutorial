@@ -1,8 +1,39 @@
+.main-info{
+  max-width: 1300px;
+  background-color:#fff;
+  display: flex;
+  justify-content: center;
+  padding:50px 0 50px 0;
 
 
-.name{
-  background-color: black;
-  height: 200px;
-  color: white;
-  font-size: 30px;
+  .our-story{
+    max-width: 900px;
+
+    p{
+      color: #616162;
+      padding: 10px;
+    }
+
+    h1{
+      padding: 10px;
+    }
+
+   a{
+      color: #000;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    a:hover{
+      color: #2a9d8e;
+      transition: 0.3s;
+    }
+
+
+
+  }
+
+
+
+
 }
