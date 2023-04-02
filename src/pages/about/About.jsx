@@ -3,11 +3,16 @@ import "./About.scss"
 
 function About() {
     return (
-        <div></div>
+        <>
+
+<div className="about">
+
+    about
+</div>
 
 
 
-
+        </>
     );
 }
 

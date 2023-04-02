@@ -1,8 +1,26 @@
-import React from 'react';
+import "./header.scss"
+import Navigation from "../navigation/Navigation.jsx";
 
-function Header(props) {
+
+function Header() {
     return (
-        <div></div>
+
+
+        <header>
+
+            <p>CRIT</p>
+
+
+
+    <Navigation/>
+
+</header>
+
+
+
+
+
+
     );
 }
 
