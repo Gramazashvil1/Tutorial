@@ -1,8 +1,11 @@
 import "./navigation.scss"
-import {NavLink,} from "react-router-dom";
-import {useState} from "react";
+import {Link, NavLink,} from "react-router-dom";
+
 
 function Navigation() {
+
+
+
 
 
 
@@ -11,11 +14,11 @@ function Navigation() {
 <>
 
     <ul>
-        <li>  <NavLink to={"/"}> <p>CRIT</p> </NavLink></li>
+        <li className={"logo-li"}>  <NavLink to={"/"}> <img src="/src/assets/images/logo.PNG" alt="logo" /></NavLink></li>
     </ul>
 
     <ul>
-        <li> <NavLink to={"/"}> HOME </NavLink></li>
+        <li> <Link to={"/"}> HOME </Link></li>
         <li> <NavLink to={"/about"}> ABOUT </NavLink></li>
         <li> <NavLink to={"/shop"}> SHOP </NavLink></li>
         <li> <NavLink to={"/contact"}> CONTACT </NavLink></li>

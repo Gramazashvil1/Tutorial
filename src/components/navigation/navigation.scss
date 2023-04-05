@@ -17,9 +17,26 @@ ul{
     align-self: center;
   }
 
+  a{
+    color: black;
+  }
+
   a:hover{
     color: #2a9d8e;
     transition: 0.3s;
   }
 
+  a.active{
+    color: #2a9d8e;
+  }
+
+
+}
+
+
+.logo-li{
+  img{
+    width: 59px;
+    height: 24px;
+  }
 }
