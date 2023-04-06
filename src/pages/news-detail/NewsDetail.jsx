@@ -7,6 +7,7 @@ import {useParams} from "react-router-dom";
 
 function NewsDetail() {
 
+    //todo 1
     const {id} = useParams();
 
 
@@ -15,6 +16,8 @@ function NewsDetail() {
     const [isError,setIsError] = useState(false)
 
 
+
+    //todo 2   aq veuenbit ro wamoigos photos konkretuli id
     useEffect(() => {
         getData(id);
     }, [id]);
@@ -23,6 +26,8 @@ function NewsDetail() {
     async function getData(){
         try{
             setIsLoading(true);
+
+            // todo 3
             const {data} = await api.get(`/photos/${id}`)
             setNewsDetail(data)
             setIsLoading(false)
@@ -51,7 +56,7 @@ function NewsDetail() {
 
 
 
-
+            {/*/ todo 4  aq mogvaq erti konretuli news */}
             <div className="news-detail">
 
                 <div className="news-img">

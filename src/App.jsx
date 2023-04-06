@@ -27,6 +27,7 @@ function App() {
                   <Route path={"/contact"} element={<Contact/>}/>
                   <Route path={"/adult"} element={<Adult/>}/>
                   <Route path={"/news/:id"} element={<NewsDetail/>}/>
+                  {/*todo 1*/}
               </Route>
 
 

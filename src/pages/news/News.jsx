@@ -10,6 +10,30 @@ import api from "../../service/api.js";
 
 function News() {
 
+    const [pageNumber, setPageNumber] = useState(0);
+    const newsPerPage = 10;
+    const pagesVisited = pageNumber * newsPerPage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //todo 1
     const [news,setNews] = useState();
     const [isLoading,setIsLoading] = useState(true);
     const [isError,setIsError] = useState(false)
@@ -19,14 +43,8 @@ function News() {
 
 
 
-    const [pageNumber, setPageNumber] = useState(0);
-    const newsPerPage = 10;
-    const pagesVisited = pageNumber * newsPerPage;
 
-
-
-
-
+    //todo 2
     useEffect(() => {
         getData();
     }, []);
@@ -67,11 +85,19 @@ function News() {
           <div className="news-main">
 
 
+
+
+              {/*todo 3 */}
               {/*{*/}
               {/*    news?.map((news)=>*/}
               {/*    <Card key={news.id} data={news}/>*/}
               {/*)*/}
               {/*}*/}
+
+
+
+
+
 
 
 
