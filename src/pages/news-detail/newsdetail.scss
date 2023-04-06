@@ -1,0 +1,54 @@
+.news-detail{
+  max-width: 1300px;
+  border-top: 1px solid;
+  background-color: #fff;
+  padding:20px;
+  display: flex;
+  justify-content: left;
+
+
+
+  .news-img{
+    min-width: 400px;
+    height: 400px;
+    border: 3px solid;
+    position: relative;
+
+    img{
+      height: 100%;
+
+    }
+
+
+
+
+    .news-id{
+      background-color: black;
+      color: white;
+      height: 30px;
+      width: 30px;
+      position:absolute;
+      top: 0;
+    }
+
+
+  }
+
+
+  h1{
+    padding: 10px;
+    width: 100%;
+    background-color: #efefef;
+
+  }
+
+
+
+
+
+
+
+
+}
+
+

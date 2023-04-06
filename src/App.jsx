@@ -6,6 +6,8 @@ import About from "./pages/about/About.jsx";
 import Shop from "./pages/shop/Shop.jsx";
 import Contact from "./pages/contact/Contact.jsx";
 import Adult from "./pages/adult/Adult.jsx";
+import News from "./pages/news/News.jsx";
+import NewsDetail from "./pages/news-detail/NewsDetail.jsx";
 
 
 function App() {
@@ -21,8 +23,10 @@ function App() {
                   <Route path={"/"} element={<Home/>}/>
                   <Route path={"/about"} element={<About/>}/>
                   <Route path={"/shop"} element={<Shop/>}/>
+                  <Route path={"/news"} element={<News/>}/>
                   <Route path={"/contact"} element={<Contact/>}/>
                   <Route path={"/adult"} element={<Adult/>}/>
+                  <Route path={"/news/:id"} element={<NewsDetail/>}/>
               </Route>
 
 
